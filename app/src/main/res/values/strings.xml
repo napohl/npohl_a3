@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">npohl_a3</string>
+    <string name="add_location">Add Location</string>
+    <string name="marker_title">lat/lng</string>
+</resources>
