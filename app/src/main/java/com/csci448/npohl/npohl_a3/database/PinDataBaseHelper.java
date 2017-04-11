@@ -1,8 +1,10 @@
-package com.csci448.npohl.npohl_a3.database;
+/*package com.csci448.npohl.npohl_a3.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import com.csci448.npohl.npohl_a3.database.PinDataDbSchema.PinDataTable;
 
 public class PinDataBaseHelper extends SQLiteOpenHelper {
     private static final int VERSION = 1;
@@ -14,7 +16,13 @@ public class PinDataBaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        db.execSQL("create table " + PinDataTable.NAME + "(" +
+            " _id integer primary key autoincrement, " +
+            PinDataTable.Cols.LAT + ", " +
+            PinDataTable.Cols.LON + ", " +
+            PinDataTable.Cols.DATE + ")"
+                // TODO: 4/11/17 add weather to db
+        );
     }
 
     @Override
@@ -22,3 +30,4 @@ public class PinDataBaseHelper extends SQLiteOpenHelper {
         //intentionally left blank
     }
 }
+*/
