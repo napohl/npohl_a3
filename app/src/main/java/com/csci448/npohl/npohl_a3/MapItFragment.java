@@ -163,8 +163,19 @@ public class MapItFragment extends SupportMapFragment {
     }
 
     private class FetchWeatherTask extends AsyncTask<Void, Void, Void> {
+        //used to store data on weather
+        private String mCondition;
+        private double mTemp;
+
         @Override
         protected Void doInBackground(Void... params) {
+            //will probably need to start new fetcher, call getWeather() using location, then set vars
+            WeatherFetch fetcher = new WeatherFetch();
+            fetcher.getWeather(mCurrentLocation);
+            //call getWeather(location);
+            mCondition = fetcher.getCondition();
+            mTemp = fetcher.getTemp();
+            /*
             try {
                 String call = new WeatherFetch().buildUrl(mCurrentLocation);
                 String result = new WeatherFetch().getUrlString(call);
@@ -172,7 +183,17 @@ public class MapItFragment extends SupportMapFragment {
             } catch (IOException ioe) {
                 Log.e(TAG, "Failed to fetch URL: ", ioe);
             }
+            */
             return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            mData.setCondition(mCondition);
+            mData.setTemp(mTemp);
+            Log.i(TAG, "Weather Condition: " + mCondition);
+            Log.i(TAG, "Temperature: " + String.valueOf(mTemp));
+            //save to database
         }
     }
 

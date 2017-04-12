@@ -24,23 +24,20 @@ public class WeatherFetch {
     //final call should probably look like api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}
 
     private static final String TAG = "WeatherFetch";
+    private static final String API_KEY = "141e2d4db8929655ec16033ce00c08f0";
+    private static final String API_TAG = "APPID";
     private static final Uri API_CALL = Uri
-            .parse("https://api.openweathermap.org/data/2.5/weather")
+            .parse("http://api.openweathermap.org/data/2.5/weather")
             .buildUpon()
             .build();
-/*
-    private static final Uri ENDPOINT = Uri
-            .parse("https://api.openweathermap.org/data/2.5/weather")
-            .buildUpon()
-            .appendQueryParameter("format", "json")
-            .appendQueryParameter("nojsoncallback", "1")
-            .appendQueryParameter("extras", "url_s,geo")
-            .build();
-    */
+
+    private String mCondition;
+    private double mTemp;
 
     public byte[] getUrlBytes(String urlSpec) throws IOException {
         URL url = new URL(urlSpec);
         HttpURLConnection connection = (HttpURLConnection)url.openConnection();
+        Log.i(TAG, "getUrlBytes URL = " + url.toString());
 
         try {
             ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -63,22 +60,55 @@ public class WeatherFetch {
         }
     }
 
-    public String buildUrl(Location location) {
+    private String buildUrl(Location location) {
         return API_CALL.buildUpon()
                 .appendQueryParameter("lat", "" + (int)location.getLatitude())
                 .appendQueryParameter("lon", "" + (int)location.getLongitude())
+                .appendQueryParameter(API_TAG, API_KEY)
                 .build().toString();
     }
-/*
-    public List<GalleryItem> searchPhotos(Location location) {
+
+    // TODO: 4/12/17 add javadoc comment to this function
+    public void getWeather(Location location) {
         String url = buildUrl(location);
-        return downloadGalleryItems(url);
-    }*/
+        try {
+            String jsonString = getUrlString(url);
+            Log.i(TAG, "Recieved JSON: " + jsonString);
+            JSONObject jsonBody = new JSONObject(jsonString);
+            parseData(jsonBody);
+        }
+        catch (JSONException je) {
+            Log.e(TAG, "Failed to parse JSON", je);
+        }
+        catch (IOException ioe) {
+            Log.e(TAG, "Failed to fetch items: ", ioe);
+        }
+    }
+
+    // TODO: 4/12/17 add javadoc comment to this function
+    private void parseData(JSONObject jsonBody) throws IOException, JSONException {
+        //only one object in the weather array we care about, the first one
+        JSONObject weatherJsonObject = jsonBody.getJSONArray("weather").getJSONObject(0);
+        JSONObject mainJsonObject = jsonBody.getJSONObject("main");
+
+        mCondition = weatherJsonObject.getString("description");
+        //we want
+        mTemp = Double.valueOf(mainJsonObject.getString("temp"));
+    }
 
     public String getUrlString(String urlSpec) throws IOException {
         return new String(getUrlBytes(urlSpec));
     }
-/*
+
+    public String getCondition() {
+        return mCondition;
+    }
+
+    public double getTemp() {
+        return mTemp;
+    }
+
+    /*
     private List<GalleryItem> downloadGalleryItems(String url) {
         List<GalleryItem> items = new ArrayList<>();
         try {

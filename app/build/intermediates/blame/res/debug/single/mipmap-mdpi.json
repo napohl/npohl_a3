@@ -1,10 +1,14 @@
 [
     {
-        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]
