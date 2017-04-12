@@ -73,7 +73,7 @@ public class MapItFragment extends SupportMapFragment {
                 updateUI();
             }
         });
-
+/*
         mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
@@ -82,7 +82,7 @@ public class MapItFragment extends SupportMapFragment {
                 return false;
             }
         });
-
+*/
         checkPermission();
         setHasOptionsMenu(true);
     }
@@ -121,6 +121,7 @@ public class MapItFragment extends SupportMapFragment {
                 mData.setLat(mCurrentLocation.getLatitude());
                 mData.setLon(mCurrentLocation.getLongitude());
                 mData.setDate(new Date());
+                new FetchWeatherTask().execute();
                 updateUI();
                 return true;
             default:
@@ -142,7 +143,7 @@ public class MapItFragment extends SupportMapFragment {
         if (mMap == null || mCurrentLocation == null) {
             return;
         }
-;
+
         LatLng myPoint = new LatLng(
                 mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
 
@@ -159,6 +160,20 @@ public class MapItFragment extends SupportMapFragment {
                 .include(myPoint)
                 .build();
 
+    }
+
+    private class FetchWeatherTask extends AsyncTask<Void, Void, Void> {
+        @Override
+        protected Void doInBackground(Void... params) {
+            try {
+                String call = new WeatherFetch().buildUrl(mCurrentLocation);
+                String result = new WeatherFetch().getUrlString(call);
+                Log.i(TAG, "Fetched contents of URL: " + result);
+            } catch (IOException ioe) {
+                Log.e(TAG, "Failed to fetch URL: ", ioe);
+            }
+            return null;
+        }
     }
 
 }
