@@ -99,6 +99,12 @@ public class MapItFragment extends SupportMapFragment {
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        updateUI();
+    }
+
+    @Override
     public void onStart() {
         super.onStart();
         getActivity().invalidateOptionsMenu();
@@ -119,6 +125,8 @@ public class MapItFragment extends SupportMapFragment {
 
         MenuItem searchItem = menu.findItem(R.id.action_locate);
         searchItem.setEnabled(mClient.isConnected());
+        MenuItem deleteDatabase = menu.findItem(R.id.action_delete);
+        deleteDatabase.setEnabled(AllData.get(getActivity()).getAllPinData().size() != 0);
     }
 
     @Override
@@ -127,6 +135,10 @@ public class MapItFragment extends SupportMapFragment {
             case R.id.action_locate:
                 addLocation();
                 return true;
+            case R.id.action_delete:
+                mMap.clear();
+                AllData.get(getActivity()).deleteDatabase();
+                updateUI();
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -153,15 +165,28 @@ public class MapItFragment extends SupportMapFragment {
         new FetchWeatherTask().execute();
     }
 
+    // TODO: 4/12/2017 add javadoc comments
     private void updateUI() {
-        if (mMap == null || mCurrentLocation == null) {
+        //if we don't have a map or location, skip updating the UI altogether
+        if (mMap == null) {
             return;
         }
+        
+        AllData allData = AllData.get(getActivity());
+        List<PinData> pinDatas = allData.getAllPinData();
 
+        for (PinData pinData : pinDatas) {
+            LatLng point = new LatLng(pinData.getLat(), pinData.getLon());
+            String markerTitle = getResources().getString(R.string.marker_title)+ ":(" + String.valueOf(pinData.getLat()) + "," + String.valueOf(pinData.getLon()) + ")";
+
+            Marker marker = mMap.addMarker(new MarkerOptions()
+                .position(point)
+                .title(markerTitle));
+            marker.setTag(pinData);
+        }
+/*
         LatLng myPoint = new LatLng(
                 mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
-
-        mMap.clear();
 
         String markerTitle = getResources().getString(R.string.marker_title)+ ":(" + String.valueOf(mCurrentLocation.getLatitude()) + "," + String.valueOf(mCurrentLocation.getLongitude()) + ")";
 
@@ -169,17 +194,25 @@ public class MapItFragment extends SupportMapFragment {
                 .position(myPoint)
                 .title(markerTitle));
         marker.setTag(mData);
+        */
 
-        LatLngBounds bounds = new LatLngBounds.Builder()
-                .include(myPoint)
-                .build();
+    }
 
+    /**
+     * This function assumes the input is in kelvin, and will convert to Fahrenheit
+     * This is because the weather api we are using returns the temperature in Kelvin
+     *
+     * @param temp temperature in Kelvin
+     */
+    private int convertTemp(double temp) {
+        double convert = temp * 9/5;
+        return (int)convert - 460;
     }
 
     private class FetchWeatherTask extends AsyncTask<Void, Void, Void> {
         //used to store data on weather
         private String mCondition;
-        private double mTemp;
+        private int mTemp;
 
         @Override
         protected Void doInBackground(Void... params) {
@@ -187,8 +220,8 @@ public class MapItFragment extends SupportMapFragment {
             WeatherFetch fetcher = new WeatherFetch();
             fetcher.getWeather(mCurrentLocation);
             mCondition = fetcher.getCondition();
-            mTemp = fetcher.getTemp();
-
+            //must convert temperature when we receive the data
+            mTemp = convertTemp(fetcher.getTemp());
             return null;
         }
 
@@ -198,9 +231,10 @@ public class MapItFragment extends SupportMapFragment {
             mData.setTemp(mTemp);
             Log.i(TAG, "Weather Condition: " + mCondition);
             Log.i(TAG, "Temperature: " + String.valueOf(mTemp));
+            //save to database
+            AllData.get(getActivity()).addData(mData);
             //update with marker after we have all data
             updateUI();
-            //save to database
         }
     }
 

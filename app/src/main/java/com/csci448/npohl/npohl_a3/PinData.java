@@ -46,16 +46,9 @@ public class PinData {
         return mTemp;
     }
 
-    /**
-     * This function assumes the input is in kelvin, and will convert to Fahrenheit
-     * This is because the weather api we are using returns the temperature in Kelvin
-     *
-     * @param temp temperature in Kelvin
-     */
-    public void setTemp(double temp) {
-        //convert from K to F
-        double convert = temp * 9/5;
-        mTemp = (int)convert - 460;
+
+    public void setTemp(int temp) {
+        mTemp = temp;
     }
 
     public String getCondition() {

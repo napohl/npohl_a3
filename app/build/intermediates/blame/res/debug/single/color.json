@@ -12,12 +12,12 @@
         "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_tint_btn_checkable.xml"
-    },
-    {
         "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
@@ -28,16 +28,16 @@
         "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.0\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\color\\design_error.xml"
     },
     {
-        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
@@ -80,16 +80,16 @@
         "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\color\\design_error.xml"
     },
     {
-        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
@@ -140,12 +140,12 @@
         "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_tint_btn_checkable.xml"
-    },
-    {
         "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
