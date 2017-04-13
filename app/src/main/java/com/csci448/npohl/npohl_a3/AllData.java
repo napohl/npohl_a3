@@ -17,8 +17,7 @@ import java.util.List;
  */
 public class AllData {
     private static AllData sAllData;
-    
-    // TODO: 4/11/17 got back to listing 14.7 and remove a lot of the data from AllData
+
     private Context mContext;
     private SQLiteDatabase mDatabase;
 
@@ -84,7 +83,6 @@ public class AllData {
         return new PinDataCursorWrapper(cursor);
     }
 
-    // TODO: 4/12/2017 add delete
     public void deleteDatabase() {
         mDatabase.delete(PinDataDbSchema.PinDataTable.NAME, null, null);
         //mDatabase = new PinDataBaseHelper(mContext).getWritableDatabase();

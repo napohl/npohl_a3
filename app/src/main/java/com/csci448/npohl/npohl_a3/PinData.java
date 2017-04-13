@@ -13,9 +13,10 @@ public class PinData {
     private double mLat;
     private double mLon;
     private Date mDate;
+    //we set temperature to be an int, because it looks ugly on the snackbar as a double
     private int mTemp;
+    //the weather condition is all we care about keeping from the weather details
     private String mCondition;
-    // TODO: 4/10/17 get weather data
 
 
     public double getLat() {
@@ -59,6 +60,11 @@ public class PinData {
         mCondition = condition;
     }
 
+    /**
+     * This is a helper function that is used to create a standardized string format for the snackbar
+     *
+     * @return returns the message that the snackbar will use
+     */
     public String getSnackBarString() {
         String s = "You were here: " + mDate.toString() + "\nTemp: " + String.valueOf(mTemp) + "F (" + mCondition + ")";
         return s;

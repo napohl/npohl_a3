@@ -4,7 +4,6 @@ import android.location.Location;
 import android.net.Uri;
 import android.util.Log;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -13,15 +12,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
 
 /**
- * Created by Nate on 4/11/2017.
+ * This class is a helper class used to call the OpenWeatherMap API and get the data back from it
  */
-
 public class WeatherFetch {
-
-    //final call should probably look like api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}
 
     private static final String TAG = "WeatherFetch";
     private static final String API_KEY = "141e2d4db8929655ec16033ce00c08f0";
@@ -68,7 +63,14 @@ public class WeatherFetch {
                 .build().toString();
     }
 
-    // TODO: 4/12/17 add javadoc comment to this function
+    /**
+     * This function is called from the fragment to help get the weather.
+     *
+     * This does not return any parameters, but sets up the url to query the api using the given location.
+     * The fragment will have to get the values of temperature and weather condition after calling this function
+     *
+     * @param location the location that we want to get the weather for
+     */
     public void getWeather(Location location) {
         String url = buildUrl(location);
         try {
@@ -85,7 +87,13 @@ public class WeatherFetch {
         }
     }
 
-    // TODO: 4/12/17 add javadoc comment to this function
+    /**
+     * This function helps get the relevant data from the JSON OBject we recieve back from the API call
+     *
+     * @param jsonBody the object to be parsed
+     * @throws IOException may not be able to fetch any items
+     * @throws JSONException may not be able to parse the JSON file given to it
+     */
     private void parseData(JSONObject jsonBody) throws IOException, JSONException {
         //only one object in the weather array we care about, the first one
         JSONObject weatherJsonObject = jsonBody.getJSONArray("weather").getJSONObject(0);
@@ -108,46 +116,4 @@ public class WeatherFetch {
         return mTemp;
     }
 
-    /*
-    private List<GalleryItem> downloadGalleryItems(String url) {
-        List<GalleryItem> items = new ArrayList<>();
-        try {
-            String jsonString = getUrlString(url);
-            Log.i(TAG, "Received JSON: " + jsonString);
-            JSONObject jsonBody = new JSONObject(jsonString);
-            parseItems(items, jsonBody);
-        }
-        catch (JSONException je) {
-            Log.e(TAG, "Failed to parse JSON", je);
-        }
-        catch (IOException ioe) {
-            Log.e(TAG, "Failed to fetch items: ", ioe);
-        }
-
-        return items;
-    }
-
-    private void parseItems(List<GalleryItem> items, JSONObject jsonBody)
-            throws IOException, JSONException {
-
-        JSONObject photosJsonObject = jsonBody.getJSONObject("photos");
-        JSONArray photoJsonArray = photosJsonObject.getJSONArray("photo");
-
-        for (int i = 0; i < photoJsonArray.length(); i++) {
-            JSONObject photoJsonObject = photoJsonArray.getJSONObject(i);
-
-            GalleryItem item = new GalleryItem();
-            item.setId(photoJsonObject.getString("id"));
-            item.setCaption(photoJsonObject.getString("title"));
-
-            if (!photoJsonObject.has("url_s")) {
-                continue;
-            }
-
-            item.setUrl(photoJsonObject.getString("url_s"));
-            item.setLat(photoJsonObject.getDouble("latitude"));
-            item.setLon(photoJsonObject.getDouble("longitude"));
-            items.add(item);
-        }
-    }*/
 }

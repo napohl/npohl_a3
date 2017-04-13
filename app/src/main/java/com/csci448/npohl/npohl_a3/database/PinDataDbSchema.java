@@ -10,7 +10,6 @@ public class PinDataDbSchema {
             public static final String DATE = "date";
             public static final String TEMP = "temperature";
             public static final String WEATHER = "weather";
-            // TODO: 4/11/17 add weather to database
         }
     }
 }

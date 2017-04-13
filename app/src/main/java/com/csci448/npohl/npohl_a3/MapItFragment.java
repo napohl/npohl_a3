@@ -14,26 +14,18 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationListener;
-import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.tagmanager.Container;
 
-import java.io.IOException;
 import java.util.Date;
 import java.util.List;
-
-import static android.support.design.R.styleable.FloatingActionButton;
 
 public class MapItFragment extends SupportMapFragment {
     private static final String TAG = "MapItFragment";
@@ -41,7 +33,6 @@ public class MapItFragment extends SupportMapFragment {
     private GoogleApiClient mClient;
     private GoogleMap mMap;
     private Location mCurrentLocation;
-    private Marker mMarker;
     private PinData mData;
     private android.support.design.widget.FloatingActionButton mAddLocation;
 
@@ -75,7 +66,6 @@ public class MapItFragment extends SupportMapFragment {
                 mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
                     @Override
                     public boolean onMarkerClick(Marker marker) {
-                        // TODO: 4/10/17 make snackbar appear on clicking marker
                         PinData data = (PinData) marker.getTag();
                         String message = data.getSnackBarString();
                         Snackbar sBar = Snackbar.make(getActivity().findViewById(R.id.fragment_container), message, Snackbar.LENGTH_INDEFINITE);
@@ -165,7 +155,11 @@ public class MapItFragment extends SupportMapFragment {
         new FetchWeatherTask().execute();
     }
 
-    // TODO: 4/12/2017 add javadoc comments
+    /**
+     * This function is called whenever the app is opened or when we add or delete markers.
+     *
+     * It will update the markers that are present on the map using the most up to date list of data points.
+     */
     private void updateUI() {
         //if we don't have a map or location, skip updating the UI altogether
         if (mMap == null) {
@@ -184,17 +178,6 @@ public class MapItFragment extends SupportMapFragment {
                 .title(markerTitle));
             marker.setTag(pinData);
         }
-/*
-        LatLng myPoint = new LatLng(
-                mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
-
-        String markerTitle = getResources().getString(R.string.marker_title)+ ":(" + String.valueOf(mCurrentLocation.getLatitude()) + "," + String.valueOf(mCurrentLocation.getLongitude()) + ")";
-
-        Marker marker = mMap.addMarker(new MarkerOptions()
-                .position(myPoint)
-                .title(markerTitle));
-        marker.setTag(mData);
-        */
 
     }
 
@@ -225,6 +208,12 @@ public class MapItFragment extends SupportMapFragment {
             return null;
         }
 
+        /**
+         * This function is used to get the weather data into our PinData object and then update the database and the UI
+         *
+         * This function has to be called after the background thread is done, otherwise we will not get accurate
+         * data for the weather
+         */
         @Override
         protected void onPostExecute(Void result) {
             mData.setCondition(mCondition);
