@@ -5,12 +5,16 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
@@ -23,6 +27,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.tagmanager.Container;
 
 import java.io.IOException;
 import java.util.Date;
@@ -38,10 +43,7 @@ public class MapItFragment extends SupportMapFragment {
     private Location mCurrentLocation;
     private Marker mMarker;
     private PinData mData;
-    // TODO: 4/11/17 add coordinator layout (according to slides) which will allow us to move fab 
-    // TODO: 4/10/17 make floating action button
-    //private FloatingActionButton mActionButton;
-
+    private android.support.design.widget.FloatingActionButton mAddLocation;
 
     public static MapItFragment newInstance() {
         return new MapItFragment();
@@ -70,19 +72,28 @@ public class MapItFragment extends SupportMapFragment {
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 mMap = googleMap;
+                mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+                    @Override
+                    public boolean onMarkerClick(Marker marker) {
+                        // TODO: 4/10/17 make snackbar appear on clicking marker
+                        PinData data = (PinData) marker.getTag();
+                        String message = data.getSnackBarString();
+                        Snackbar sBar = Snackbar.make(getActivity().findViewById(R.id.fragment_container), message, Snackbar.LENGTH_INDEFINITE);
+                        sBar.show();
+                        return false;
+                    }
+                });
                 updateUI();
             }
         });
-/*
-        mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+
+        mAddLocation = (FloatingActionButton) getActivity().findViewById(R.id.add_location_button);
+        mAddLocation.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onMarkerClick(Marker marker) {
-                // TODO: 4/10/17 make snackbar appear on clicking marker 
-                //Snackbar sBar = Snackbar.make(getActivity(), mData.getSnackBarString(), SnackBar.LENGTH_SHORT).show();
-                return false;
+            public void onClick(View v) {
+                addLocation();
             }
         });
-*/
         checkPermission();
         setHasOptionsMenu(true);
     }
@@ -114,15 +125,7 @@ public class MapItFragment extends SupportMapFragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_locate:
-                //must check permission before accessing location
-                checkPermission();
-                mCurrentLocation = LocationServices.FusedLocationApi.getLastLocation(mClient);
-                mData = new PinData();
-                mData.setLat(mCurrentLocation.getLatitude());
-                mData.setLon(mCurrentLocation.getLongitude());
-                mData.setDate(new Date());
-                new FetchWeatherTask().execute();
-                updateUI();
+                addLocation();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -137,6 +140,17 @@ public class MapItFragment extends SupportMapFragment {
             Log.d(TAG, "Requesting Permission");
             ActivityCompat.requestPermissions(this.getActivity(), new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION}, 123);
         }
+    }
+
+    private void addLocation() {
+        //must check permission before accessing location
+        checkPermission();
+        mCurrentLocation = LocationServices.FusedLocationApi.getLastLocation(mClient);
+        mData = new PinData();
+        mData.setLat(mCurrentLocation.getLatitude());
+        mData.setLon(mCurrentLocation.getLongitude());
+        mData.setDate(new Date());
+        new FetchWeatherTask().execute();
     }
 
     private void updateUI() {
@@ -172,18 +186,9 @@ public class MapItFragment extends SupportMapFragment {
             //will probably need to start new fetcher, call getWeather() using location, then set vars
             WeatherFetch fetcher = new WeatherFetch();
             fetcher.getWeather(mCurrentLocation);
-            //call getWeather(location);
             mCondition = fetcher.getCondition();
             mTemp = fetcher.getTemp();
-            /*
-            try {
-                String call = new WeatherFetch().buildUrl(mCurrentLocation);
-                String result = new WeatherFetch().getUrlString(call);
-                Log.i(TAG, "Fetched contents of URL: " + result);
-            } catch (IOException ioe) {
-                Log.e(TAG, "Failed to fetch URL: ", ioe);
-            }
-            */
+
             return null;
         }
 
@@ -193,6 +198,8 @@ public class MapItFragment extends SupportMapFragment {
             mData.setTemp(mTemp);
             Log.i(TAG, "Weather Condition: " + mCondition);
             Log.i(TAG, "Temperature: " + String.valueOf(mTemp));
+            //update with marker after we have all data
+            updateUI();
             //save to database
         }
     }

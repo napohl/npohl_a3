@@ -1,50 +1,66 @@
 [
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
     }
 ]

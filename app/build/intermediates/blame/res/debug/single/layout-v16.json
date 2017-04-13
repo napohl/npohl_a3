@@ -1,14 +1,18 @@
 [
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

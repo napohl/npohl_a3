@@ -1,26 +1,34 @@
 [
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     }
 ]

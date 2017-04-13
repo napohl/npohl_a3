@@ -13,7 +13,7 @@ public class PinData {
     private double mLat;
     private double mLon;
     private Date mDate;
-    private double mTemp;
+    private int mTemp;
     private String mCondition;
     // TODO: 4/10/17 get weather data
 
@@ -42,7 +42,7 @@ public class PinData {
         this.mDate = mDate;
     }
 
-    public double getTemp() {
+    public int getTemp() {
         return mTemp;
     }
 
@@ -54,7 +54,8 @@ public class PinData {
      */
     public void setTemp(double temp) {
         //convert from K to F
-        mTemp = (temp * 9/5) - 459.6;
+        double convert = temp * 9/5;
+        mTemp = (int)convert - 460;
     }
 
     public String getCondition() {
@@ -66,7 +67,7 @@ public class PinData {
     }
 
     public String getSnackBarString() {
-        String s = "You were here:" + mDate.toString() + "\nTemp: " + String.valueOf(mTemp) + "F(" + mCondition + ")";
+        String s = "You were here: " + mDate.toString() + "\nTemp: " + String.valueOf(mTemp) + "F (" + mCondition + ")";
         return s;
     }
 }

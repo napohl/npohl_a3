@@ -1,62 +1,82 @@
 [
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout-v21/place_autocomplete_fragment.xml"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout-v21\\place_autocomplete_fragment.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v21/notification_action.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout-v21\\place_autocomplete_fragment.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout-v21\\place_autocomplete_fragment.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "/home/nate/AndroidStudioProjects/npohl_a3/C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\home\\nate\\AndroidStudioProjects\\npohl_a3\\C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Nate\\Documents\\AndroidStudioProjects\\npohl_a3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
     }
 ]
